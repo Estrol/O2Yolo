@@ -1,0 +1,14 @@
+{
+    "name": "o2yoloproject",
+    "author": "Estrol",
+    "main": "/server/server.js",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "scripts": {
+        "start": "npm run-script start-otwo && npm run-script start-server",
+        "start-otwo": "start o2interval 1 127.0.0.1 o2jam/patch 127.0.0.1:15000 1 1 1 1 1 1 1 1 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010 127.0.0.1 15010",
+        "start-server": "node ./server/server",
+        "start-otwo2": "start o2interval 1 127.0.0.1 o2jam/patch 127.0.0.1:80 1 1 1 1 1 1 1 1 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015 127.0.0.1 15015"
+    }
+}

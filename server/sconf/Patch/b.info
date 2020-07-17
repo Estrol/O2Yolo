@@ -1,0 +1,16 @@
+//EmuLeader
+TODO: Fill this text
+
+//EmuRoom
+O2Yolo, Yet another O2-JAM Server Emulator
+Todo: Multiplayer support!
+
+//EmuStateWait
+/r <room name> : Change room name.
+F2             : Automatically switch to unused team color.
+F3             : Toggle READY status, or START for room host.
+F5             : Toggle square/rounded note shape while in-game.
+F6             : Cycle guideline length while in-game.
+F8             : Toggle windows/image cursor mode.
+F9             : Toggle equalizer on/off.
+PrintScreen    : Take screenshot
